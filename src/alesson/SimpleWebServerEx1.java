@@ -11,6 +11,8 @@ import java.net.Socket;
 public class SimpleWebServerEx1 {
 
 	public static void main(String[] args) throws IOException {
+		
+		System.out.println("test -- - --- -");
 	      ServerSocket server = new ServerSocket(9000);
 	      while(true)
 	      {
